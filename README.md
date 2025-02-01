@@ -1,20 +1,30 @@
 <div align="center">
-  <h2><b>Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs</b></h2>
-  <h4>What doesn't kill me makes me stronger</h4>
+  <h2 style="font-size: 36px; font-weight: bold; color: #333;">Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs</h2>
+  <h4 style="font-size: 20px; color: #777; font-style: italic;">What doesn't kill me makes me stronger</h4>
 </div>
 
-<div align="center">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KejiaZhang-Robust/VAP">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP">
+<div align="center" style="margin-top: 20px;">
+  <!-- Stars Badge with Custom Color -->
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KejiaZhang-Robust/VAP?style=social&color=ff6347" style="margin: 0 0px;">
+  <!-- Forks Badge with Custom Color -->
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP?style=social&color=1e90ff" style="margin: 0 0px;">
+  <!-- arXiv Badge with Custom Color -->
   <a href="https://arxiv.org/abs/2412.00143">
-    <img src="https://img.shields.io/badge/arXiv-2412.00143-b31b1b" alt="arXiv" />
+    <img src="https://img.shields.io/badge/arXiv-2412.00143-b31b1b?style=flat-square" alt="arXiv" style="margin: 0 0px;" />
   </a>
-  <img alt="GitHub License" src="https://img.shields.io/github/license/KejiaZhang-Robust/VAP">
+  <!-- License Badge with Custom Color -->
+  <img alt="GitHub License" src="https://img.shields.io/github/license/KejiaZhang-Robust/VAP?style=flat-square&color=32CD32" style="margin: 0 0px;">
+  <!-- Language Badge -->
+  <img alt="Language" src="https://img.shields.io/github/languages/top/KejiaZhang-Robust/VAP?style=flat-square&color=9acd32" style="margin: 0 0px;">
 </div>
 
-<div align="center">
-  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px;">
-  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-right: 20px;">
+<div align="center" style="margin-top: 30px;">
+  <h3 style="font-size: 24px; font-weight: bold; color: #333;">Kejia Zhang, Keda Tao, Jiasheng Tang, Huan Wang</h3>
+</div>
+
+<div align="center" style="margin-top: 20px;">
+  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block;">
+  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-left: 20px; display: inline-block;">
 </div>
 
 ## Dataset
