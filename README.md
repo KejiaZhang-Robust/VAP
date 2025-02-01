@@ -23,8 +23,8 @@
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6); background-color: rgba(255, 255, 255, 0.7); border-radius: 8px;">
-  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-left: 20px; display: inline-block; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6); background-color: rgba(255, 255, 255, 0.7); border-radius: 8px;">
+  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block; filter: brightness(0) invert(1);">
+  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-left: 20px; display: inline-block; filter: brightness(0) invert(1);">
 </div>
 
 ## Dataset
