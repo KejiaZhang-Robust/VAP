@@ -22,10 +22,15 @@
   <h3 style="font-size: 24px; font-weight: bold; color: #333;">Kejia Zhang, Keda Tao, Jiasheng Tang, Huan Wang</h3>
 </div>
 
+<!-- LOGO.png -->
 <div align="center" style="margin-top: 20px;">
-  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block; filter: brightness(0) invert(1);">
-  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-left: 20px; display: inline-block; filter: brightness(0) invert(1);">
+  <img src="image/LOGO.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block;">
 </div>
+
+<!-- <div align="center" style="margin-top: 20px;">
+  <img src="image/westlake_signatures.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block;">
+  <img src="image/DAMO.avif" height="100" alt="DAMO Logo" style="margin-left: 20px; display: inline-block;">
+</div> -->
 
 ## Dataset
 
