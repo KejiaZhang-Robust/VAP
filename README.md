@@ -33,8 +33,10 @@
 
 ---
 
+# 📖 Paper Overview
+
 <!-- Teaser Image -->
-<div align="center" style="margin-top: 40px;">
+<div align="center" style="margin-top: 20px;">
   <img src="image/Teaser.png" alt="VAP Teaser" width="80%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 </div>
 
@@ -45,6 +47,139 @@
     <strong>8 state-of-the-art LVMs</strong> under the rigorous <strong>POPE hallucination evaluation</strong>.
   </p>
 </div>
+
+## 🎬 Demo: VAP in Action
+
+<!-- Image Carousel Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container" style="text-align: center;">
+      <h2 class="title is-3">Illustration of the effectiveness on VQA Tasks</h2>
+
+      <!-- Carousel Wrapper -->
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <!-- Image Items -->
+        <div class="item">
+          <img src="image/internvl-mpo.png" alt="Intern-VL2-MPO" />
+          <h2 class="subtitle">Intern-VL2-MPO</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/instruct-blip.png" alt="Instruct-BLIP" />
+          <h2 class="subtitle">Instruct-BLIP</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/internvl.png" alt="Intern-VL2" />
+          <h2 class="subtitle">Intern-VL2</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/llava.png" alt="LLaVA-v1.5" />
+          <h2 class="subtitle">LLaVA-v1.5</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/llava-ov.png" alt="LLaVA-OneVision" />
+          <h2 class="subtitle">LLaVA-OneVision</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/deepseek.png" alt="DeepSeek-VL2" />
+          <h2 class="subtitle">DeepSeek-VL2</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/ovis1.6-gemma2.png" alt="Ovis1.6-Gemma2" />
+          <h2 class="subtitle">Ovis1.6-Gemma2</h2>
+        </div>
+
+        <div class="item">
+          <img src="image/qwen.png" alt="Qwen-VL2" />
+          <h2 class="subtitle">Qwen-VL2</h2>
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="carousel-buttons">
+        <button onclick="prevSlide()">⬅️ Prev</button>
+        <button onclick="nextSlide()">Next ➡️</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CSS for Carousel -->
+<style>
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    position: relative;
+  }
+
+  .item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+  }
+
+  .item img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .carousel-buttons {
+    margin-top: 10px;
+  }
+
+  .carousel-buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+  }
+</style>
+
+<!-- JavaScript for Auto & Manual Slide -->
+<script>
+  let index = 0;
+  const totalSlides = 8;
+
+  function updateSlide() {
+    document.querySelector('.carousel').style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function prevSlide() {
+    index = (index - 1 + totalSlides) % totalSlides;
+    updateSlide();
+  }
+
+  function nextSlide() {
+    index = (index + 1) % totalSlides;
+    updateSlide();
+  }
+
+  setInterval(nextSlide, 3000); // Auto-slide every 3s
+</script>
+
+---
+
+# 🚀 News
+
+📢 **[2025-02-02] VAP is now open-source!** Explore our **Visual Adversarial Perturbation (VAP)** method to mitigate object hallucinations in LVMs. Check out the repo and get started! 🔥
 
 ---
 
