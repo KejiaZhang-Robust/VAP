@@ -9,9 +9,9 @@
   <!-- Forks Badge -->
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP?style=social&color=1e90ff" style="margin: 0 0px;">
   <!-- arXiv Badge -->
-  <a href="https://arxiv.org/abs/2412.00143">
+  <!-- <a href="https://arxiv.org/abs/2412.00143">
     <img src="https://img.shields.io/badge/arXiv-2412.00143-b31b1b?style=flat-square" alt="arXiv" style="margin: 0 0px;" />
-  </a>
+  </a> -->
   <!-- Project Page Badge -->
   <a href="https://kejiazhang-robust.github.io/poison-cure-lvm">
     <img src="https://img.shields.io/badge/Project Page-VAP-008080?style=flat-square" alt="Project Page" style="margin: 0 0px;">
