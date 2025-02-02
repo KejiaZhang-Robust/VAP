@@ -156,7 +156,7 @@ pip install flash-attn==2.3.6 --no-build-isolation
 ### LLaVA-OneVision & Ovis1.6-Gemma2
 
 - **Model:** [lmms-lab/llava-onevision-qwen2-7b-ov](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov)
-- **Environment Setup:**
+- **Shared Environment Setup:**
 
 ```bash
 cd env_setting/LLaVA-NeXT
