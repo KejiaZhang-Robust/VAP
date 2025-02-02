@@ -4,27 +4,46 @@
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <!-- Stars Badge with Custom Color -->
+  <!-- Stars Badge -->
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KejiaZhang-Robust/VAP?style=social&color=ff6347" style="margin: 0 0px;">
-  <!-- Forks Badge with Custom Color -->
+  <!-- Forks Badge -->
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP?style=social&color=1e90ff" style="margin: 0 0px;">
-  <!-- arXiv Badge with Custom Color -->
+  <!-- arXiv Badge -->
   <a href="https://arxiv.org/abs/2412.00143">
     <img src="https://img.shields.io/badge/arXiv-2412.00143-b31b1b?style=flat-square" alt="arXiv" style="margin: 0 0px;" />
   </a>
-  <!-- License Badge with Custom Color -->
+  <!-- Project Page Badge -->
+  <a href="https://kejiazhang-robust.github.io/poison-cure-lvm">
+    <img src="https://img.shields.io/badge/Project Page-VAP-008080?style=flat-square" alt="Project Page" style="margin: 0 0px;">
+  </a>
+  <!-- License Badge -->
   <img alt="GitHub License" src="https://img.shields.io/github/license/KejiaZhang-Robust/VAP?style=flat-square&color=32CD32" style="margin: 0 0px;">
   <!-- Language Badge -->
-  <img alt="Language" src="https://img.shields.io/github/languages/top/KejiaZhang-Robust/VAP?style=flat-square&color=9acd32" style="margin: 0 0px;">
+  <!-- <img alt="Language" src="https://img.shields.io/github/languages/top/KejiaZhang-Robust/VAP?style=flat-square&color=9acd32" style="margin: 0 5px;"> -->
 </div>
 
 <div align="center" style="margin-top: 30px;">
   <h3 style="font-size: 24px; font-weight: bold; color: #333;">Kejia Zhang, Keda Tao, Jiasheng Tang, Huan Wang</h3>
 </div>
 
-<!-- LOGO.png -->
+<!-- LOGO -->
 <div align="center" style="margin-top: 20px;">
   <img src="image/LOGO.png" height="100" alt="Westlake University Logo" style="margin-right: 20px; display: inline-block;">
+</div>
+
+---
+
+<!-- Teaser Image -->
+<div align="center" style="margin-top: 40px;">
+  <img src="image/Teaser.png" alt="VAP Teaser" width="80%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+</div>
+
+<div align="center" style="margin-top: 15px;">
+  <p style="font-size: 14px; font-weight: 500; color: #444;">
+    We introduce <strong>VAP (Visual Adversarial Perturbation)</strong>, a novel approach that strategically injects beneficial visual noise to mitigate object hallucinations in LVMs, 
+    without altering the complex base model. Our method consistently enhances robustness across 
+    <strong>8 state-of-the-art LVMs</strong> under the rigorous <strong>POPE hallucination evaluation</strong>.
+  </p>
 </div>
 
 ---
