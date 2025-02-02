@@ -279,19 +279,14 @@ if __name__ == "__main__":
     # "./record/beaf/llava-1.5v-7b/Hullucination_2bfbba22/Hullucination_answer.json"
     args= parse_args()
     set_random_seed(args.seed)
-    if args.record_root == 'record_cure' or args.record_root == 'record_ICML' or args.record_root == 'cure_record':
-        read_record =  os.path.join(args.record_root, args.dataset, str(args.experiment_id), args.model)
-        record_path = os.path.join(args.record_path, args.dataset, str(args.experiment_id), args.model)
-    else:
-        read_record =  os.path.join(args.record_root, args.dataset, args.model, 'Hallucination_'+str(args.experiment_id))
-        record_path = os.path.join(args.record_path, args.dataset, args.model, 'Hallucination_'+str(args.experiment_id))
+    read_record =  os.path.join(args.record_root, args.dataset, str(args.experiment_id), args.model)
+    record_path = os.path.join(args.record_path, args.dataset, str(args.experiment_id), args.model)
     os.makedirs(record_path, exist_ok=True)
-
     
     logger = setup_logger(args.dataset, os.path.join(record_path, args.evaluate_file[:-5]+'.log'))
     log_all_args(args, logger)
 
-    if args.dataset == 'beaf' or args.dataset == 'beaf_adv':
+    if args.dataset == 'beaf':
         evaluate_all(os.path.join(read_record, args.evaluate_file), os.path.join(record_path, args.evaluate_file), logger)
     else:
         evaluate_part(os.path.join(read_record, args.evaluate_file), logger)
