@@ -5,9 +5,9 @@
 
 <div align="center" style="margin-top: 20px;">
   <!-- Stars Badge -->
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KejiaZhang-Robust/VAP?style=social&color=ff6347" style="margin: 0 0px;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KejiaZhang-Robust/VAP?style=social" style="margin: 0 5px;">
   <!-- Forks Badge -->
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP?style=social&color=1e90ff" style="margin: 0 0px;">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/KejiaZhang-Robust/VAP?style=social" style="margin: 0 5px;">
   <!-- arXiv Badge -->
   <!-- <a href="https://arxiv.org/abs/2412.00143">
     <img src="https://img.shields.io/badge/arXiv-2412.00143-b31b1b?style=flat-square" alt="arXiv" style="margin: 0 0px;" />
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Project Page-VAP-008080?style=flat-square" alt="Project Page" style="margin: 0 0px;">
   </a>
   <!-- License Badge -->
-  <img alt="GitHub License" src="https://img.shields.io/github/license/KejiaZhang-Robust/VAP?style=flat-square&color=32CD32" style="margin: 0 0px;">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/KejiaZhang-Robust/VAP?style=flat-square" style="margin: 0 0px;">
   <!-- Language Badge -->
   <!-- <img alt="Language" src="https://img.shields.io/github/languages/top/KejiaZhang-Robust/VAP?style=flat-square&color=9acd32" style="margin: 0 5px;"> -->
 </div>
