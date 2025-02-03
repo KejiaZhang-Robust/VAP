@@ -58,7 +58,7 @@
 
 <div align="center" style="margin-top: 18px;">
   <p style="font-size: 12px; font-weight: 500; color: #444; max-width: 75%;">
-    <strong>Examples of the vision-question-answer (VQA) tasks before and after applying our proposed method to the original images. (a) and (b) demonstrates the suppression of hallucinations in vision-/text-axis evaluations. (c) and (d) shows the reduction of hallucinations in open-ended tasks.</strong>.
+    Examples of the vision-question-answer (VQA) tasks before and after applying our proposed method to the original images. (a) and (b) demonstrates the suppression of hallucinations in vision-/text-axis evaluations. (c) and (d) shows the reduction of hallucinations in open-ended tasks..
   </p>
 </div>
 
@@ -67,6 +67,8 @@
 # 🚀 News
 
 📢 **[2025-02-02] VAP is now open-source!** Explore our **Visual Adversarial Perturbation (VAP)** method to mitigate object hallucinations in LVMs. Check out the repo and get started! 🔥
+
+📢 **[2025-02-03] Our paper “Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs” is now available!** 🎉
 
 ---
 
