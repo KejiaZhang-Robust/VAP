@@ -155,7 +155,9 @@ pip install flash-attn==2.3.6 --no-build-isolation
 
 ### LLaVA-OneVision & Ovis1.6-Gemma2
 
-- **Model:** [lmms-lab/llava-onevision-qwen2-7b-ov](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov)
+- **Model:**
+  - [lmms-lab/llava-onevision-qwen2-7b-ov](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov)
+  - [AIDC-AI/Ovis1.6-Gemma2-9B](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B)
 - **Shared Environment Setup:**
 
 ```bash
@@ -165,8 +167,6 @@ conda activate llava_onevision
 pip install --upgrade pip
 pip install -e ".[train]"
 pip install ftfy regex tqdm matplotlib
-cd ../transformers
-pip install .
 pip install transformers==4.47.0
 pip install flash-attn==2.5.2
 ```
@@ -181,8 +181,7 @@ pip install flash-attn==2.5.2
 ```bash
 conda create -n qwen python==3.11 -y
 conda activate qwen
-cd env_setting/transformers
-pip install .
+pip install transformers
 pip install qwen-vl-utils
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install accelerate==0.26.1
@@ -228,3 +227,20 @@ To assess the model’s performance on hallucination benchmarks, execute:
 ```
 bash script/evaluate.sh
 ```
+
+---
+
+## 📌 Citation
+
+If you find our work helpful, please consider citing our paper:
+
+```
+@article{zhang2025poison,
+  title={Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs},
+  author={Kejia Zhang and Keda Tao and Jiasheng Tang and Huan Wang},
+  journal={arXiv preprint arXiv:2501.19164},
+  year={2025}
+}
+```
+
+Your citation helps support our research and further advances the field of reliable vision-language models. 🚀
