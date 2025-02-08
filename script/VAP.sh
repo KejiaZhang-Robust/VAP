@@ -23,3 +23,11 @@ CUDA_VISIBLE_DEVICES=0 python -u code_LVMs/cure.py \
     --steps 1 \
     --num_query 5 \
     --sigma 8 
+
+# LLaVA 1 1 1 False 500 alpha=4
+# Instruct-BLIP 1 1 1 False 500
+# Qwen2-VL 1 0.1 0.5 False 500
+# InternVL2-MPO 1 0.5 0.5 False 800
+# LLAVA-OV 0.1 1 0.1 False
+# Ovis 1 1 1 False 500
+# Deepseek 1 1 1 False 100
