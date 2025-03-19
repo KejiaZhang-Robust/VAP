@@ -84,7 +84,7 @@ We evaluate eight state-of-the-art Large Vision-Language Models (LVMs) to valida
 | Instruct-BLIP  | 7.9B           | Vicuna-7B          | ViT-G            | 2023-09          |
 | Intern-VL2     | 8.1B           | InternLM2.5-7B     | InternViT-300M   | 2024-07          |
 | Intern-VL2-MPO | 8.1B           | InternLM2.5-7B     | InternViT-300M   | 2024-11          |
-| DeepSeek-VL2   | 16.1B          | Gemma2-9B          | SigLIP-400M      | 2024-12          |
+| DeepSeek-VL2   | 16.1B          | DeepSeekMoE-16B    | SigLIP-400M      | 2024-12          |
 | Qwen-VL2       | 8.3B           | Qwen2-7B           | ViT-Qwen         | 2024-08          |
 | LLaVA-OV       | 8.0B           | Qwen2-7B           | SigLIP-400M      | 2024-08          |
 | Ovis1.6-Gemma2 | 9.4B           | Gemma2-9B          | SigLIP-400M      | 2024-11          |
