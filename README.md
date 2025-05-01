@@ -1,6 +1,6 @@
 <div align="center">
   <h2 style="font-size: 36px; font-weight: bold; color: #333;">Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs</h2>
-  <h4 style="font-size: 20px; color: #777; font-style: italic;">What doesn't kill me makes me stronger</h4>
+  <h4 style="font-size: 20px; color: #777; font-style: italic;">What doesn't kill me makes me stronger!</h4>
 </div>
 
 <div align="center" style="margin-top: 20px;">
