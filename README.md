@@ -239,7 +239,7 @@ If you find our work helpful, please consider citing our paper:
 ```
 @article{zhang2025poison,
   title={Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs},
-  author={Kejia Zhang and Keda Tao and Jiasheng Tang and Huan Wang},
+  author={Zhang, Kejia and Tao, Keda and Tang, Jiasheng and Wang, Huan},
   journal={arXiv preprint arXiv:2501.19164},
   year={2025}
 }
