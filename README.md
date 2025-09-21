@@ -70,7 +70,7 @@
 
 📢 **[2025-02-03] Our paper “Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs” is now available!** 🎉
 
-📢 **[2025-09-18] Excited to share that our paper has been accepted to NeurIPS 2025! 🎊 See you in San Diego! 🌴
+📢 **[2025-09-18] Excited to share that our paper has been accepted to NeurIPS 2025! 🎊 See you in San Diego!** 🌴
 
 ---
 
